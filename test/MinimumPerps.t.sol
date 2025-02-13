@@ -18,7 +18,6 @@ contract MinimumPerpsTest is Test {
 
     MockERC20 public USDC;
     MockERC20 public BTC;
-    address public constant WETH = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
     string public constant name = "MinPerps";
     string public constant symbol = "MP";
     MockAggregatorV3 public btcFeed;
